@@ -32,7 +32,7 @@ The dataset underwent comprehensive data cleaning and preprocessing steps, inclu
 - Creat additional columns 
 - Dealing with duplicate rows in the dataset.
 
-  
+The SQL script used for data cleaning and preprocessing can be found ![]()
 
 --------------
 Analyze transaction trends by both day of the week and time of the day.showing the number of transactions for each day of the week and hour of the day, excluding cancellations. You can analyze this data to identify patterns and peak transaction times during the week.
