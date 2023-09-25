@@ -36,18 +36,6 @@ The SQL script used for data cleaning and preprocessing can be found ![here](Onl
 
 ## Visualization
 
-Our interactive Power BI dashboard features a range of visualizations, including:
-- Number of transactions               
-- Total Sales                          
-- Customer Count            
-- Average Order Value
-- Total Sales by Month                 
-- Customers by Country
-- Total Sales by Country               
-- Transaction Status Distribution (%)
-- Top 5 Selling Products by Quantity   
-- Transaction Trends by Day and Time
-
 ![](Online_Retail_Dashboard.jpg)
 
 ## Analysis and Insights
