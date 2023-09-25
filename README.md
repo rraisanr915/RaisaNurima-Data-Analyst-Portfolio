@@ -15,7 +15,7 @@ The primary objectives of this analysis are as follows:
 _It is important to note that this report is solely intended to demonstrate the capabilities of SQL and Power BI for data analysis and does not represent any specific company or organization._
 
 ## Dataset Source:
-The dataset used for this project is in CSV format and can be accessed on Kaggle at the following link [here](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset). It contains transaction records for the specified period and serves as the primary data source for the analysis.
+The dataset used for this project is in CSV format and can be accessed on Kaggle at the following link [here](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset). This is a table containing transaction records for a specific period and serves as the main data source for analysis.
 
 ## Methods Employed
 For this project, I employed a combination of SQL and Power BI for data analysis:
@@ -32,7 +32,11 @@ The dataset underwent comprehensive data cleaning and preprocessing steps, inclu
 - Creat additional columns 
 - Dealing with duplicate rows in the dataset.
 
-The SQL script used for data cleaning and preprocessing can be found ![]()
+The SQL script used for data cleaning and preprocessing can be found ![](Online_Retail.sql
+
+## Visualization
+
+![](Online_Retail_Dashboard.jpg)
 
 --------------
 Analyze transaction trends by both day of the week and time of the day.showing the number of transactions for each day of the week and hour of the day, excluding cancellations. You can analyze this data to identify patterns and peak transaction times during the week.
