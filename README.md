@@ -37,38 +37,30 @@ The SQL script used for data cleaning and preprocessing can be found ![here](Onl
 ## Visualization
 
 Our interactive Power BI dashboard features a range of visualizations, including:
-- Total Sales
+- Total Sales                          
 - Customer Count
-- Number of Transactions
+- Number of Transactions               
 - Average Order Value
-- Total Sales by Month
+- Total Sales by Month                 
 - Customers by Country
-- Total Sales by Country
+- Total Sales by Country               
 - Transaction Status Distribution (%)
-- Top 5 Selling Products by Quantity
+- Top 5 Selling Products by Quantity   
 - Transaction Trends by Day and Time
 
 ![](Online_Retail_Dashboard.jpg)
 
 ## Analysis and Insights
-
-Total Sales Amount Over the Specified Period: The analysis revealed that the total sales amount for the period between December 1, 2010, and December 9, 2011, amounted to $10.9M. This metric serves as a critical indicator of the retailer's overall revenue during this time frame.
-
-Count of Distinct Customers (Excluding Cancellations): By excluding cancellations, the analysis determined that there were 4339 distinct customers who engaged with the retailer during the specified period. This metric provides insights into the retailer's customer base and the number of unique individuals or businesses making purchases.
-
-Number of Unique Transactions: The dataset contained a total of 19959 unique transactions. This metric quantifies the volume of individual sales interactions, offering insights into the retailer's transactional activity.
-
-Average Order Value (Excluding Cancellations): The average order value, calculated by excluding cancellations, was $533. This metric indicates the typical amount spent by customers in a single transaction, which is valuable for assessing purchasing behavior.
-
-Monthly Sales Trends: The analysis uncovered distinct monthly sales trends, with November 2011 being the highest and February 2011 the lowest. These trends help identify seasonality or patterns in sales, which can inform inventory management and marketing strategies.
-
-Customer Segmentation by Country: The analysis segmented customers by their respective countries, revealing that United Kingdom had the highest number of customers. This segmentation assists in understanding the retailer's international customer distribution.
-
-Top-Selling Products by Quantity: The analysis identified the top-selling products based on quantity sold, with "Paper Craft, Little  Birdie" being the best-seller. Understanding which products are in high demand can guide inventory and marketing decisions.
-
-Transaction Status Distribution: The distribution of transaction statuses showed that 98.27% of transactions were successful, while 1.73% were cancellations. This insight provides an overview of transaction outcomes.
-
-Transaction Trends by Day and Time: The analysis revealed transaction trends based on the day of the week and time of day. For instance, on Thursday and at 12 o'clock, which can inform staffing and operational decisions.
+- __Number of Transactions__:In the period from December 1, 2010, to December 9, 2011, the dataset recorded a total of 19,959 successful unique transactions, illustrating the extent of customer engagement during this time.
+- __Total Sales__:The total sales for the one-year period, spanning December 1, 2010, to December 9, 2011, amounted to $10.9 million, providing a comprehensive overview of annual revenue.
+- __Customer__:Excluding cancellations, the analysis revealed 4,339 distinct customers who participated in transactions between December 1, 2010, and December 9, 2011, shedding light on the size and diversity of the customer base.
+- __Average Order Value__:The average order value for this year was $533, offering insight into typical customer spending behavior over the entire year.
+- __Total Sales by Month__:A monthly sales trend analysis revealed fluctuations throughout the year, with November 2011 as the highest-grossing month and February 2011 as the lowest. These trends can inform demand forecasting and inventory management strategies.
+- __Customers by Country__:The analysis identified the United Kingdom as the country with the highest number of customers, highlighting a significant domestic customer base.
+- __Total Sales by Country__:The United Kingdom emerged as the top contributor to total sales, underlining its significance within the market.
+- __Top 5 Selling Products by Quantity__:The analysis pinpointed the best-selling products by quantity, with "Paper Craft, Small Birdie" leading the pack, followed by "Medium Ceramic Top Storage Jar," "World war 2 glider asstd design," "Jumbo bag red retro spot," and "White hanging heart t-light holder." This knowledge can guide inventory management and marketing decisions.
+- __Transaction Status(%)__:Transaction statuses were distributed with 98.27% of transactions being successful and 1.73% as cancellations, providing an overview of transaction outcomes and potential areas for improvement.
+- __Transaction Trends by Day and Time__: Analyzes transaction data to identify patterns in customer behavior throughout the week and within a 24-hour period. The analysis shows that Thursdays are consistently the busiest days of the week for transactions, and 12 noon is the highest transaction volume on a daily basis; this information highlights the specific day of the week and time of day when most transactions occur.
 
 --------------
 Analyze transaction trends by both day of the week and time of the day.showing the number of transactions for each day of the week and hour of the day, excluding cancellations. You can analyze this data to identify patterns and peak transaction times during the week.
