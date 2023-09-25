@@ -67,7 +67,7 @@ Our interactive Power BI dashboard features a range of visualizations, including
 2. Make sure popular items are available online.
 3. Focus on UK customers with special deals.
 4. Explore selling to other countries.
-5. Have more help available online on Thursdays and at noon.
+5. Have more workers available on Thursdays and around 12 noon.
 6. Offer great customer service and loyalty programs.
 7. Accept various online payment methods and currencies.
 8. Find why people leave their online carts and make the process smoother.
