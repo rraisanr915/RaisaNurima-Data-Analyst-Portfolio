@@ -37,9 +37,9 @@ The SQL script used for data cleaning and preprocessing can be found ![here](Onl
 ## Visualization
 
 Our interactive Power BI dashboard features a range of visualizations, including:
+- Number of transactions               
 - Total Sales                          
-- Customer Count
-- Number of Transactions               
+- Customer Count            
 - Average Order Value
 - Total Sales by Month                 
 - Customers by Country
@@ -61,6 +61,18 @@ Our interactive Power BI dashboard features a range of visualizations, including
 - __Top 5 Selling Products by Quantity__:The analysis pinpointed the best-selling products by quantity, with "Paper Craft, Small Birdie" leading the pack, followed by "Medium Ceramic Top Storage Jar," "World war 2 glider asstd design," "Jumbo bag red retro spot," and "White hanging heart t-light holder." This knowledge can guide inventory management and marketing decisions.
 - __Transaction Status(%)__:Transaction statuses were distributed with 98.27% of transactions being successful and 1.73% as cancellations, providing an overview of transaction outcomes and potential areas for improvement.
 - __Transaction Trends by Day and Time__: Analyzes transaction data to identify patterns in customer behavior throughout the week and within a 24-hour period. The analysis shows that Thursdays are consistently the busiest days of the week for transactions, and 12 noon is the highest transaction volume on a daily basis; this information highlights the specific day of the week and time of day when most transactions occur.
+  
+## Recommendations
+1. Advertise more during popular shopping months like November.
+2. Make sure popular items are available online.
+3. Focus on UK customers with special deals.
+4. Explore selling to other countries.
+5. Have more help available online on Thursdays and at noon.
+6. Offer great customer service and loyalty programs.
+7. Accept various online payment methods and currencies.
+8. Find why people leave their online carts and make the process smoother.
+9. Suggest related items to boost online order values.
+10. Keep an eye on online sales trends for better decisions.
 
 --------------
 Analyze transaction trends by both day of the week and time of the day.showing the number of transactions for each day of the week and hour of the day, excluding cancellations. You can analyze this data to identify patterns and peak transaction times during the week.
