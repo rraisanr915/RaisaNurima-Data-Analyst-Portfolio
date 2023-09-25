@@ -5,14 +5,15 @@
 ## Introduction
 Welcome to my first project portfolio! In this portfolio, I am excited to present my work on a SQL and Power BI project focused on analyzing online retail data for a UK-based non-store online retailer. The dataset comprises transactions recorded between December 1, 2010, and December 9, 2011. The retailer specializes in selling unique gifts suitable for various occasions, with a significant portion of its customer base consisting of wholesalers.
 
-## Project Objectives:
-The primary objectives of this analysis are as follows:
-- To gain valuable insights into the retail operations, customer behavior, and sales trends,
-- To answer key questions and provide data-driven recommendations for decision-makers,
-- To showcase the capabilities of SQL and Power BI in extracting insights from real-world retail data.
-
 **_Disclaimer:_**
 _It is important to note that this report is solely intended to demonstrate the capabilities of SQL and Power BI for data analysis and does not represent any specific company or organization._
+
+## Problem Statement
+1. During the period from December 1, 2010, to December 9, 2011, how many transactions occurred, what was the total sales, how many distinct customers made purchases, and what was the average order value?
+2. How did sales evolve over the period from December 1, 2010, to December 9, 2011? What are the notable trends and patterns in sales during this time?
+3. Which country had the highest number of customers during this period?
+4. Which country recorded the highest total sales during this period?
+5. What is the top-selling item by quantity during the specified time frame?
 
 ## Dataset Source:
 The dataset used for this project is in CSV format and can be accessed on Kaggle at the following link [here](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset). This is a table containing transaction records for a specific period and serves as the main data source for analysis.
@@ -32,17 +33,20 @@ The dataset underwent comprehensive data cleaning and preprocessing steps, inclu
 - Creat additional columns 
 - Dealing with duplicate rows in the dataset.
 
-The SQL script used for data cleaning and preprocessing can be found ![here](Online_Retail.sql)
+For detailed information and SQL scripts used for data cleaning and preprocessing, please refer to this [SQL Scripts](Online_Retail.sql) .
 
 ## Visualization
 
 ![](Online_Retail_Dashboard.jpg)
 
 ## Analysis and Insights
+### Transaction Summary
 - __Number of Transactions__:In the period from December 1, 2010, to December 9, 2011, the dataset recorded a total of 19,959 successful unique transactions, illustrating the extent of customer engagement during this time.
 - __Total Sales__:The total sales for the one-year period, spanning December 1, 2010, to December 9, 2011, amounted to $10.9 million, providing a comprehensive overview of annual revenue.
 - __Customer__:Excluding cancellations, the analysis revealed 4,339 distinct customers who participated in transactions between December 1, 2010, and December 9, 2011, shedding light on the size and diversity of the customer base.
 - __Average Order Value__:The average order value for this year was $533, offering insight into typical customer spending behavior over the entire year.
+
+### Sales Trends
 - __Total Sales by Month__:A monthly sales trend analysis revealed fluctuations throughout the year, with November 2011 as the highest-grossing month and February 2011 as the lowest. These trends can inform demand forecasting and inventory management strategies.
 - __Customers by Country__:The analysis identified the United Kingdom as the country with the highest number of customers, highlighting a significant domestic customer base.
 - __Total Sales by Country__:The United Kingdom emerged as the top contributor to total sales, underlining its significance within the market.
@@ -61,9 +65,4 @@ The SQL script used for data cleaning and preprocessing can be found ![here](Onl
 8. Find why people leave their online carts and make the process smoother.
 9. Suggest related items to boost online order values.
 10. Keep an eye on online sales trends for better decisions.
-
---------------
-Analyze transaction trends by both day of the week and time of the day.showing the number of transactions for each day of the week and hour of the day, excluding cancellations. You can analyze this data to identify patterns and peak transaction times during the week.
-
-total sales by month ,showcase how sales have evolved throughout the year. This information can be invaluable for business decision-making, such as identifying peak sales periods, evaluating the effectiveness of marketing campaigns, and forecasting future sales based on historical trends.total sales amounts for each month, which is valuable for analyzing sales trends over time.
 
